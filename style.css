@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Epilogue:wght@300;600&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Epilogue:wght@600&family=Lexend+Deca&display=swap");
+* {
+  padding: 0;
+  margin: 10px;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+header {
+  display: flex;
+  /* padding: 2px; */
+}
+.head a {
+  font-family: "Epilogue", sans-serif;
+  font-size: 2rem;
+  color: hsl(0, 0%, 8%);
+}
+
+/* .nav{ */
+  float: right;
+
+}
+
+.headright {
+    padding: auto;
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.headright a {
+  color: hsl(0, 0%, 41%);
+  font-size: 1rem;
+  font-family: "Epilogue", sans-serif;
+}
+.headright button {
+  background-color: transparent;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  color: hsl(0, 0%, 41%);
+  height: 30px;
+  width: 90px;
+}
+.headright button :hover{
+    cursor: pointer;
+    border: hsl(0, 0%, 41%);
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.content {
+  overflow: hidden;
+  display: flex;
+}
+
+.content .left {
+  width: 480px;
+  padding: 7%;
+  margin-right: 20px;
+}
+
+.content .left h1 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 3rem;
+  font-size: 3.7rem;
+  color: hsl(0, 0%, 8%);
+  margin-bottom: 30px;
+}
+.content .left p {
+  font-family: "Epilogue";
+  font-style: thin;
+  color: hsl(0, 0%, 41%);
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.content .left button {
+  background-color: black;
+  border-radius: 12px;
+  text-align: center;
+  color: hsl(0, 0%, 98%);
+  height: 60px;
+  transition: 0;
+  border: solid;
+  width: 110px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.content .left button:hover{
+    background:hsl(0, 0%, 98%);
+    border: solid hsl(0, 0%, 8%);
+    cursor: pointer;
+    color: hsl(0, 0%, 8%);
+}
+.content .left .icons img {
+  width: 90px;
+  margin-top: 40px;
+}
+
+.content .right {
+  margin-left: 10px;
+}
+
+.content .right img {
+  width: 370px;
+  padding: auto;
+}
